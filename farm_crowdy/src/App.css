@@ -49,6 +49,44 @@
 .slide-two button{
     background: linear-gradient(to right, #feb154, #ffd255);
 }
+/*Service component */
+.service-container {
+    margin: 10px;
+    height: 10px;
+}
 
+.service-1, .service-2, .service-3 {
+    width: 30%;
 
-
+    
+}
+.ser1 {
+    display: flex;
+    align-items: center;
+}
+/*.ser1, .ser2, .ser3{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    
+}*/
+.box {
+    width: 100%;
+  }
+  .box .text h4 {
+    letter-spacing: -1.5px;
+  }
+  .box .icon {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .box .icon {
+    float: left;
+    margin-bottom: 20px;
+  }
+  
+  .box .text {
+    margin-left: 100px;
+  }
