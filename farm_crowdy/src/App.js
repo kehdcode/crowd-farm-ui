@@ -13,9 +13,6 @@ function App() {
       <Navbar />
       <Courosel />
       <Service />
-     
-      
-      <h2>Hello World</h2>
       
     </div>
   );

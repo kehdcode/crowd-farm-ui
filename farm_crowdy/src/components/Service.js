@@ -1,11 +1,10 @@
 import React from 'react'
 import Price from './Price';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 
  function Service() {
-    const element = <FontAwesomeIcon icon={faCoffee} />
     return (
         <section id="service">
             <div className="container">   
@@ -13,7 +12,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
                 <div className="col-md-4">
                 <div class="box flyLeft">
                   <div class="icon">
-                  
+                  <FontAwesomeIcon icon={faCoffee} size="lg"></FontAwesomeIcon>
                   </div>
                   <div class="text">
                     <h4>High <strong>Quality</strong></h4>
@@ -28,7 +27,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
                 <div className="col-md-4">
                 <div class="box flyLeft">
                   <div class="icon">
-                    <i class="ico icon-circled icon-bgdark icon-star active icon-3x"></i>
+                  <FontAwesomeIcon icon={faCoffee} size="lg"></FontAwesomeIcon>
                   </div>
                   <div class="text">
                     <h4>High <strong>Quality</strong></h4>
@@ -43,7 +42,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
                 <div className="col-md-4">
                 <div class="box flyLeft">
                   <div class="icon">
-                    <i class="ico icon-circled icon-bgdark icon-star active icon-3x"></i>
+                  <FontAwesomeIcon icon={faCoffee} size="lg"></FontAwesomeIcon>
                   </div>
                   <div className="text">
                     <h4>High <strong>Quality</strong></h4>
