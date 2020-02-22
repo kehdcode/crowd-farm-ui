@@ -1,66 +1,57 @@
 import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
+
 
  function Testimonials() {
     return (
-        <div>
-            <div class="container">
-	<div className="row">
-		<div class="col-sm-6">
-        <h3><strong>Testimonial</strong></h3>
-        <div class="seprator"></div>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <div class="row" style="padding: 20px">
-                    <button style="border: none;"><i class="fa fa-quote-left testimonial_fa" aria-hidden="true"></i></button>
-                    <p class="testimonial_para">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p><br>
-                    <div class="row">
-                    <div class="col-sm-2">
-                        <img src="http://demos1.showcasedemos.in/jntuicem2017/html/v1/assets/images/jack.jpg" class="img-responsive" style="width: 80px">
-                        </div>
-                        <div class="col-sm-10">
-                        <h4><strong>Jack Andreson</strong></h4>
-                        <p class="testimonial_subtitle"><span>Chlinical Chemistry Technologist</span><br>
-                        <span>Officeal All Star Cafe</span>
-                        </p>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-               <div class="item">
-                   <div class="row" style="padding: 20px">
-                    <button style="border: none;"><i class="fa fa-quote-left testimonial_fa" aria-hidden="true"></i></button>
-                    <p class="testimonial_para">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p><br>
-                    <div class="row">
-                    <div class="col-sm-2">
-                        <img src="http://demos1.showcasedemos.in/jntuicem2017/html/v1/assets/images/kiara.jpg" class="img-responsive" style="width: 80px">
-                        </div>
-                        <div class="col-sm-10">
-                        <h4><strong>Kiara Andreson</strong></h4>
-                        <p class="testimonial_subtitle"><span>Chlinical Chemistry Technologist</span><br>
-                        <span>Officeal All Star Cafe</span>
-                        </p>
-                    </div><!--End of col-sm-2 -->
-                    </div>
-                  </div>
-                </div><!--End of item -->
-              </div>
-            </div><!--End of courosel -->
-            <div class="controls testimonial_control pull-right">
-                <a class="left fa fa-chevron-left btn btn-default testimonial_btn" href="#carousel-example-generic"
-                  data-slide="prev"></a>
+      <div>
+      <div className="row">
+        <div className ="container">
+          <div className ="col-md 12 text-center">
+            <h1>What They Say About Us</h1>
+            <hr />
+          </div>
+        </div>
+      </div>
 
-                <a class="right fa fa-chevron-right btn btn-default testimonial_btn" href="#carousel-example-generic"
-                  data-slide="next"></a>
-              </div>
-        </div>
-	</div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol className="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div className="carousel-inner">
+    <div className="carousel-item active text-center">
+      <img src="/images/3.jpg" className="img-thumbnail rounded-circle" alt="..." />
+      <div className="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div className="carousel-item text-center">
+      <img src="/images/2.jpg" className="img-thumbnail rounded-circle" alt="..." />
+      <div className="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div className="carousel-item text-center">
+    <img src ="/images/1.jpg" className="img-thumbnail rounded-circle" alt=".."/>
+      <div className="carousel-caption d-none d-md-block">
+        <h5>John Abe</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="sr-only">Previous</span>
+  </a>
+  <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="sr-only">Next</span>
+  </a>
 </div>
-            
-        </div>
+</div>
     )
 }
 
