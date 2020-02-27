@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 
 
  function Testimonials() {
@@ -51,6 +52,10 @@ import React from 'react'
     <span className="sr-only">Next</span>
   </a>
 </div>
+
+<Footer />
+<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bglight icon-2x active"></i></a>
+
 </div>
     )
 }
