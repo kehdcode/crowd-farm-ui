@@ -1,3 +1,13 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #656565;
+}
+*{
+  box-sizing: border-box;
+}
 .navbar-brand {
     font-family: 'Zhi Mang Xing', cursive;
 }
@@ -12,6 +22,9 @@
 }
 .slide-one {
     background: #e9f0f7;
+}
+.row {
+    margin-top: 25px;
 }
 .row .carousel-item{
     margin: 12% 0;
@@ -50,9 +63,6 @@
     background: linear-gradient(to right, #feb154, #ffd255);
 }
 /*Service component */
-#service{
-    padding-top: 20px;
-}
 .service-container {
     padding-top: 20px;
     margin: 10px;
@@ -94,7 +104,50 @@
   .box .text {
     margin-left: 50px;
   }
-  .box .text
+/*Price Section */
+.pricing-box-wrap {
+    border: 1px solid #e6e6e6;
+    background: #e8edf2;
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.pricing-box-wrap .pricing-heading{
+  background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 30px 0;
+    display: block;
+}
+.pricing-box-wrap .pricing-heading h3{
+  font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -1px
+}
+.pricing-terms{
+      text-align: center; 
+      background: #464646;
+      display: block;
+      overflow: hidden;
+      padding: 30px 0 20px;
+      color: honeydew;
+  }
+  .pricing-box-wrap .pricing-content{
+    background: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.pricing-content ul{
+  list-style: none;
+}
+.pricing-content ul li{
+  border-bottom: 1px solid #e9e9e9;
+  padding: 20px 20px 20px 10px;
+  margin: 0 0 0 0;
+}
+
+
+
   /*Testimonials*/
  .testimonial_subtitle{
      color: #0aaa7a;

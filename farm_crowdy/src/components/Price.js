@@ -8,9 +8,10 @@ import Testimonials from './Testimonials';
     return (
         <div>
             <div className="row">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="text-center">
                         <h1>Our <strong>Pricing</strong></h1>
+                        <hr />
                         <p>Lorem ipsum dolor sit amet, labores dolorum scriptorem eum an, te quodsi sanctus neglegentur.</p>
                     </div>
                 </div>
