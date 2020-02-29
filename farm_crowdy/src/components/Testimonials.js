@@ -8,7 +8,7 @@ import Footer from './Footer';
       <div className="row">
         <div className ="container">
           <div className ="col-md 12 text-center">
-            <h1>What They Say About Us</h1>
+            <h1>What They Say About Us NOW NOW</h1>
             <hr />
           </div>
         </div>

@@ -36,7 +36,7 @@ import Testimonials from './Testimonials';
                     </ul>
                   </div>
                   <div class="pricing-action">
-                    <a href="#" class="btn btn-medium btn-theme"><i class="icon-chevron-down"></i> Sign Up</a>
+                    <a href="#" class="btn btn-medium btn-theme bground"><i class="icon-chevron-down"></i> Sign Up</a>
                   </div>
                 </div>
                 </div>{/*End of colume */}
@@ -102,7 +102,7 @@ import Testimonials from './Testimonials';
                     </ul>
                   </div>
                   <div class="pricing-action">
-                    <a href="#" class="btn btn-medium btn-theme"><i class="icon-chevron-down"></i> Sign Up</a>
+                    <a href="#" class="btn btn-medium btn-theme action"><i class="icon-chevron-down"></i> Sign Up</a>
                   </div>
                 </div>
                 </div>{/*End of colume */}
