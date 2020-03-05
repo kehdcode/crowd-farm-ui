@@ -43,7 +43,7 @@ import React from 'react'
               <form className="subscribe">
                 <div className="input-append">
                   <input className="span2" id="appendedInputButton" type="text"/>
-                  <button className="btn btn-theme" type="submit">Subscribe</button>
+                  <button className="btn btn-theme footbtn" type="submit">Subscribe</button>
                 </div>
               </form>
             </div>
@@ -70,6 +70,7 @@ import React from 'react'
         </div>
       </div>
     </footer>
+    <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bglight icon-2x active"></i></a>
         </div>
     )
 }

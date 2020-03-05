@@ -7,12 +7,14 @@ import Service from './components/Service';
 
 
 
+
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Courosel />
       <Service />
+
       
     </div>
   );

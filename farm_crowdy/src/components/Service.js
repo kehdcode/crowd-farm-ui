@@ -46,7 +46,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
                   </div>
                   <div className="text">
                     <h4>High <strong>Quality</strong></h4>
-                    <p>
+                    <p className="bi">
                       Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
                     </p>
                     <a href="#">Learn More</a>
