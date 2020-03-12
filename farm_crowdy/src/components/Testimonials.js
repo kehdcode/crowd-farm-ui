@@ -17,7 +17,7 @@ import Footer from './Footer';
       <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
  
   <div className="carousel-inner">
-    <div className="carousel-item active text-center">
+    <div className="carousel-item active text-center testi-item">
       <img src="/images/3.jpg" className="img-thumbnail rounded-circle testi" alt="..." />
       <div className="carousel-caption d-none d-md-block testi-cap">
         <h5>First slide label</h5>
@@ -27,7 +27,7 @@ import Footer from './Footer';
         </p>
       </div>
     </div>
-    <div className="carousel-item text-center">
+      <div className="carousel-item text-center testi-item">
       <img src="/images/2.jpg" className="img-thumbnail rounded-circle testi" alt="..." />
       <div className="carousel-caption d-none d-md-block testi-cap">
         <h5>Second slide label</h5>
@@ -37,7 +37,7 @@ import Footer from './Footer';
         </p>
       </div>
     </div>
-    <div className="carousel-item text-center">
+    <div className="carousel-item text-center testi-item">
     <img src ="/images/1.jpg" className="img-thumbnail rounded-circle testi" alt=".."/>
       <div className="carousel-caption d-none d-md-block testi-cap">
         <h5 className="bi">John Abe</h5>

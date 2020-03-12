@@ -36,14 +36,14 @@ import Testimonials from './Testimonials';
                     </ul>
                   </div>
                   <div class="pricing-action">
-                    <a href="#" class="btn btn-medium btn-theme bground"><i class="icon-chevron-down"></i> Sign Up</a>
+                    <a href="#" class="btn btn-medium btn-theme simplebtn"><i class="icon-chevron-down"></i> Sign Up</a>
                   </div>
                 </div>
                 </div>{/*End of colume */}
                         <div className="col-md-3">
                         <div class="pricing-box-wrap animated-fast flyIn">
                          <div className="pricing-heading">
-                            <h3>Simple <strong>Choice</strong></h3>
+                            <h3>Golden <strong>Choice</strong></h3>
                         </div>
                   <div className="pricing-terms">
                     <h6>&#36;20.00 / Month</h6>
@@ -58,14 +58,14 @@ import Testimonials from './Testimonials';
                     </ul>
                   </div>
                   <div class="pricing-action">
-                    <a href="#" class="btn btn-medium btn-theme"><i class="icon-chevron-down"></i> Sign Up</a>
+                    <a href="#" class="btn btn-medium btn-theme goldenbtn"><i class="icon-chevron-down"></i> Sign Up</a>
                   </div>
                 </div>
                 </div>{/*End of colume */}
                 <div className="col-md-3">
                         <div class="pricing-box-wrap animated-fast flyIn">
                          <div className="pricing-heading">
-                            <h3>Simple <strong>Choice</strong></h3>
+                            <h3>Premium <strong>Choice</strong></h3>
                         </div>
                   <div className="pricing-terms">
                     <h6>&#36;20.00 / Month</h6>
@@ -80,14 +80,14 @@ import Testimonials from './Testimonials';
                     </ul>
                   </div>
                   <div class="pricing-action">
-                    <a href="#" class="btn btn-medium btn-theme"><i class="icon-chevron-down"></i> Sign Up</a>
+                     <a href="#" class="btn btn-medium btn-theme premiumbtn"><i class="icon-chevron-down"></i> Sign Up</a>
                   </div>
                 </div>
                 </div>{/*End of colume */}
                 <div className="col-md-3">
                         <div class="pricing-box-wrap animated-fast flyIn">
                          <div className="pricing-heading">
-                            <h3>Simple <strong>Choice</strong></h3>
+                            <h3>Diamond <strong>Choice</strong></h3>
                         </div>
                   <div className="pricing-terms">
                     <h6>&#36;20.00 / Month</h6>
@@ -102,7 +102,7 @@ import Testimonials from './Testimonials';
                     </ul>
                   </div>
                   <div class="pricing-action">
-                    <a href="#" class="btn btn-medium btn-theme action"><i class="icon-chevron-down"></i> Sign Up</a>
+                    <a href="#" class="btn btn-medium btn-theme action diamondbtn"><i class="icon-chevron-down"></i> Sign Up</a>
                   </div>
                 </div>
                 </div>{/*End of colume */}

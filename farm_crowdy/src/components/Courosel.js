@@ -22,7 +22,7 @@ function Courosel() {
                 </div>
                 <div className="col-md-6"> 
                 <div className="img-box">
-                    <img src ="/images/pic-1.png" className="pic-1"/>
+                    <img src ="/images/business.jpg" className="pic-1"/>
                 
                 </div>
 

@@ -55,7 +55,7 @@ import React from 'react'
           <div className="row">
             <div className="span6">
               <div className="copyright">
-                <p><span>&copy; Eterna company. All right reserved</span></p>
+                <p><span>&copy; farmcrowdy. All right reserved</span></p>
               </div>
 
             </div>

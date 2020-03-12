@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+.img-box {
+    display: none;
+}
+.testi-item{
+    right: 8%;
+    bottom: 10px ;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000 !important;
+    text-align: center ;
+    
+}
+
+  }
